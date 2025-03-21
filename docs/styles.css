@@ -151,7 +151,8 @@
 
 .btn-list, .btn-reset {
   position: absolute;
-  top: 1rem;
+  bottom: 1rem;
+  left: 1rem;
   z-index: 1;
   background: rgba(0, 0, 0, 0.3);
   border: none;
@@ -172,11 +173,11 @@
 }
 
 .btn-list {
-  right: 1rem;
+  left: 4rem;
 }
 
 .btn-reset {
-  right: 4rem;
+  left: 1rem;
 }
 
 .top-section .btn-list,
